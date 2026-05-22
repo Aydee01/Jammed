@@ -1,0 +1,166 @@
+body {
+    background-color: #FFCC00;
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding:1.5vh;
+    justify-content: center;
+}
+
+.Logo {
+    position: absolute;
+    left: 20px;
+    width: auto;
+    height: auto;
+}
+
+.NavLinks {
+    display: flex;
+    gap: 3vh;
+    font-size: 2vh;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;   
+}
+
+.NavLinks :hover {
+    transition: 0.2s;
+    color: #FFCC00;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+ul {    
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}   
+
+main {
+    display: flex; 
+    height: calc(100vh - 50px); 
+    padding: 3vh;
+    box-sizing: border-box;
+}
+
+.screen{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border-radius: 2.3vh;
+    padding: 2vh;
+}
+
+.screen-content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 1vh;
+}
+
+.scr1{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 2.3vh;
+    color: #FFCC00;
+    padding: 3vh;
+    gap: 5vh; 
+}
+
+.scr1 h1{
+    font-size: 10vh;
+    margin: 0;
+}
+
+.content{
+    width: 50%;
+    text-align: justify;
+    margin-left: 3vh;
+    gap: 2vh;
+    color: white;
+}
+
+.text{
+    color: white;
+}
+.scr2{
+   background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 2.3vh;
+    color: #FFCC00;
+    padding: 3vh;
+    gap: 5vh;
+}
+
+.scr2 h1{
+    font-size: 10vh;
+    margin: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+input{
+    padding: 2vh;
+    border-radius: 1vh;
+    background-color: rgb(33, 33, 33);
+    color: #FFCC00;
+}
+
+textarea{
+    padding: 4vh;
+    padding-left: 2vh;
+    border-radius: 1vh;
+    background-color: rgb(33, 33, 33);
+    color: #FFCC00;
+}
+
+button{
+    width: 50%;
+    background-color: transparent;
+    color: #FFCC00;
+    padding: 1.5vh;
+    border: 0.3vh solid #FFCC00;
+    border-radius: 1vh;   
+    font-size: 2vh;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-right: 25%;
+
+
+    transition: 0.2s;
+}
+
+button:hover{
+    border-color: #957c18;
+    color: #957c18;
+}

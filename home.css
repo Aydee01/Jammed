@@ -1,0 +1,270 @@
+body {
+    background-color: #FFCC00;
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding:1.5vh;
+    justify-content: center;
+}
+
+.Logo {
+    position: absolute;
+    left: 20px;
+    width: auto;
+    height: auto;
+}
+
+.NavLinks {
+    display: flex;
+    gap: 3vh;
+    font-size: 2vh;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;   
+}
+
+.NavLinks :hover {
+    transition: 0.2s;
+    color: #FFCC00;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+ul {    
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}   
+
+/* Background and Screen */
+
+main {
+    display: flex; 
+    height: calc(100vh - 38px); 
+    padding: 3vh;
+    box-sizing: border-box;
+}
+
+.screen{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 2.3vh;
+    gap: 1vh;
+}
+
+/* First widget area | Introduction etc. */
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-color: black;
+    border-radius: 2.3vh;
+    padding: 4vh;
+    gap: 2vh;
+    
+}
+
+.intro:hover h1{
+    transition: 0.3s;
+    color: #FFCC00;
+}
+
+.intro h1{
+    color: #ffffff;
+    margin: 0;
+    font-size: 7vh;
+}
+
+.line{
+    background-color: #FFCC00;
+    height: 0.4vh;
+    width: auto;
+    margin-top: 2vh;
+}
+
+.subtext{
+    color: white;
+    margin: 0;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.lower-intro{
+    display: flex;
+    gap: 2vh;
+    width: 100%;
+}
+
+.text{
+    color: white;
+    width: 50%;
+    margin: 0;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.rect{
+    width: 50%;
+    border: 0.4vh solid #FFCC00;
+}
+
+.aydee-stats{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35%;
+    color: #ffffff;
+    gap: 2vh;
+}
+
+.aydee-stats h3{
+    margin: 0;
+}
+
+.lastfm-button{
+    padding: 0.2vh;
+    border: 0.3vh solid #FFCC00;
+    text-align: center;
+    margin-right: 50%;
+    border-radius: 1vh;
+}
+
+.lastfm-button:hover{
+    transition: 0.2s;
+    color: #FFCC00;
+    border-color: #957c18;
+}
+
+/* Right Side */
+
+.content2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.row-link{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+}
+
+/* Row content */
+.row{
+    height: 100%;
+    width: auto;
+    background-color: black;
+    border-radius: 2.3vh;
+    padding: 4vh;
+    position: relative;
+}
+
+.row:hover h1{
+    transition: 0.3s;
+    color: #FFCC00;
+}
+
+.row:hover .arrow{
+    transition: 0.3s;
+    border-color: #FFCC00;
+}
+
+.row h1{
+    color: #ffffff;
+    margin: 0;
+    font-size: 7vh;
+}
+
+.arrow{
+    position: absolute;
+    width: 3vh;
+    height: 3vh;
+    transform: rotate(-45deg);
+
+    bottom:4vh;
+    right: 4vh;
+    border-right: 1vh solid white;
+    border-bottom: 1vh solid white;
+}
+
+.content3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 1vh;
+}
+
+.a{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 2.3vh;
+    position: relative;
+}
+
+.a:hover h1{
+    transition: 0.3s;
+    color: #FFCC00;
+}
+
+.a:hover .arrow{
+    transition: 0.3s;
+    border-color: #FFCC00;
+}
+
+.a h1{
+    color: #ffffff;
+    margin: 0;
+    font-size: 7vh;
+    padding: 4vh;
+}
+
+.b{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 2.3vh;
+    position: relative;
+}
+
+.b:hover h1{
+    transition: 0.3s;
+    color: #FFCC00;
+}
+
+.b:hover .arrow{
+    transition: 0.3s;
+    border-color: #FFCC00;
+}
+
+.b h1{
+    color: #ffffff;
+    margin: 0;
+    font-size: 7vh;
+    padding: 4vh;
+}

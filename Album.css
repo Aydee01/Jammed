@@ -1,0 +1,159 @@
+body {
+    background-color: #FFCC00;
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding:1.5vh;
+    justify-content: center;
+}
+
+.Logo {
+    position: absolute;
+    left: 20px;
+    width: auto;
+    height: auto;
+}
+
+.NavLinks {
+    display: flex;
+    gap: 3vh;
+    font-size: 2vh;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;   
+}
+
+.NavLinks :hover {
+    transition: 0.2s;
+    color: #FFCC00;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+ul {    
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}   
+
+main {
+    display: flex; 
+    height: calc(100vh - 37px); 
+    padding: 3vh;
+    box-sizing: border-box;
+}
+
+
+
+.album-list-screen{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    padding: 2vh;
+}
+
+.album-list-content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 1vh;
+}
+
+.user-interact{
+    flex: 1;
+    padding: 12px 12px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.user-interact h1{
+    font-size: 10vh;
+    color: #FFCC00;
+    margin: 0;
+}
+
+.search{
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 1.5vh;
+    border: 1px solid #FFCC00;
+    border-radius: 4vh;
+    background-color: black;
+    gap: 2vh;
+}
+
+.search-icon{
+    color: #FFCC00;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 2vh;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.grid-container{
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    height: 100%;
+    width: 100%;
+
+
+    grid-template-columns: repeat(3, 28vh); 
+    grid-auto-rows: 28vh;
+    gap: 1vh;
+
+    grid-template-areas:
+    "box-1 box-2 box-3"
+    "box-4 box-5 box-6"
+    "box-7 box-8 box-9"
+    ;
+}
+
+.item{
+    background-color: black;
+    border: 0.3vh solid #FFCC00;
+    border-radius: 1vh;
+    transition: 0.3s;
+}
+
+.item:hover{
+    border: 0.3vh solid #957c18;
+}
+
+.item img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1vh;
+    object-fit: cover;
+}
